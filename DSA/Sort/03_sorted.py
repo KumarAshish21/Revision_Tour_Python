@@ -34,3 +34,11 @@ print(sorted(d.values()))
 l = [("Ashish", 25),("Ajay",26),("Atul",24)]
 l.sort()
 print(l)
+
+# Which sorting algorithms are stable? 
+# Some Sorting Algorithms are stable by nature, such as Bubble Sort, Insertion Sort, Merge Sort, Count Sort, etc.
+
+# Which sorting algorithms are unstable? 
+# Quick Sort, Heap Sort etc., can be made stable by also taking the position of the elements into consideration
+
+
