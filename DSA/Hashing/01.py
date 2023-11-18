@@ -244,7 +244,7 @@
 
  
 
-                                                             Insert key 72 in the hash table
+                                                            #  Insert key 72 in the hash table
 
 # Like Chaining, the performance of hashing can be evaluated under the assumption that each key is equally likely to be hashed to any slot of the table (simple uniform hashing) 
 
@@ -257,3 +257,24 @@
 # Expected time to search/insert/delete < 1/(1 – α) 
 
 # So Search, Insert and Delete take (1/(1 – α)) time
+
+# Chaining vs Open Addressing
+
+
+# S.No.	Separate Chaining
+# Chaining is Simpler to implement.
+# In chaining, Hash table never fills up, we can always add more elements to chain.
+# Chaining is Less sensitive to the hash function or load factors.
+# Chaining is mostly used when it is unknown how many and how frequently keys may be inserted or deleted.
+# Cache performance of chaining is not good as keys are stored using linked list.
+# Wastage of Space (Some Parts of hash table in chaining are never used).
+# Chaining uses extra space for links.
+
+#  Open Addressing
+# Open Addressing requires more computation.
+# In open addressing, table may become full.
+# Open addressing requires extra care to avoid clustering and load factor.
+# Open addressing is used when the frequency and number of keys is known.
+# Open addressing provides better cache performance as everything is stored in the same table.
+# In Open addressing, a slot can be used even if an input doesn’t map to it.
+# No links in Open addressing
