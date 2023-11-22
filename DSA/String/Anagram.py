@@ -9,7 +9,7 @@ def areAnagram(s1,s2):
     return(s1==s2)
 
 
-s1= input("Enter a String:\n")
+s1= input("Enter a String:\n"
 s2= input("Enter a String:\n")
 
 def areAnagram(s1,s2):
