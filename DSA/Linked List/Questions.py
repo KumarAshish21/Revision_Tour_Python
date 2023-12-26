@@ -111,6 +111,8 @@ Your Task:
 You don't need to read input or print anything. Complete the function firstRepeated() which takes arr and n as input parameters and returns the position of the first repeating element. If there is no such element, return -1.
  
 
+
+
 Expected Time Complexity: O(n)
 Expected Auxilliary Space: O(n)
 
@@ -119,6 +121,9 @@ Your Task: You are required to complete two methods push() and pop(). The push()
 
 Expected Time Complexity: O(1) for both push() and pop().
 Expected Auxiliary Space: O(1) for both push() and pop().
+
+
+
 Infix to Postfix
 Given an infix expression in the form of string str. Convert this infix expression to postfix expression.
 
@@ -129,6 +134,8 @@ This is a function problem. You only need to complete the function infixToPostfi
 
 Expected Time Complexity: O(|str|).
 Expected Auxiliary Space: O(|str|).
+
+
 Parenthesis Checker
 Your Task:
 This is a function problem. You only need to complete the function ispar() that takes a string as a parameter and returns a boolean value true if brackets are balanced else returns false. The printing is done automatically by the driver code.
@@ -143,6 +150,9 @@ You are required to complete the two methods push() which take one argument an i
 
 Expected Time Complexity: O(1) for both push() and pop().
 Expected Auxiliary Space: O(1) for both push() and pop().
+
+
+
 
 Operations on Queue
 Given a queue of integers and Q queries. The task is to perform operations on queue according to the query. 
@@ -160,6 +170,9 @@ Your task is to complete functions enqueue(), dequeue(), front() and find() whic
 
 Expected Time Complexity: O(1) for enqueue(), dequeue() and front(); O(N) for find().
 Expected Auxiliary Space: O(1) for all the 4 functions. 
+
+
+
 
 Tree:
 Preorder Traversal
@@ -207,6 +220,8 @@ Constraints:
 1 <= Number of nodes <= 105
 1 <= Data of a node <= 109
 
+
+
 BST:
 Minimum element in BST
 Given a Binary Search Tree. The task is to find the minimum valued element in this given BST.
@@ -251,6 +266,8 @@ You don't need to read input or print anything. Complete the function search()wh
 Expected Time Complexity: O(Height of the BST)
 Expected Auxiliary Space: O(1).
 
+
+
 Binary Heap Operations
 A binary heap is a Binary Tree with the following properties:
 1) Its a complete tree (All levels are completely filled except possibly the last level and the last level has all keys as left as possible). This property of Binary Heap makes them suitable to be stored in an array.
@@ -268,12 +285,16 @@ Expected Time Complexity: O(Q*Log(size of Heap) ).
 Expected Auxiliary Space: O(1).
 
 Heap Sort
+
+
 Given an array of size N. The task is to sort the array elements by completing functions heapify() and buildHeap() which are used to implement Heap Sort.
 You don't have to read input or print anything. Your task is to complete the functions heapify(), buildheap() and heapSort() where heapSort() and buildheap() takes the array and it's size as input and heapify() takes the array, it's size and an index i as input. Complete and use these functions to sort the array using heap sort algorithm.
 Note: You don't have to return the sorted list. You need to sort the array "arr" in place.
 
 Expected Time Complexity: O(N * Log(N)).
 Expected Auxiliary Space: O(1).
+
+
 
 
 "Advance Questions"
@@ -284,12 +305,16 @@ The task is to complete the function maxIndexDiff() which finds and returns maxi
 Expected Time Complexity: O(N)
 Expected Auxiliary Space: O(N)
 
+
+
 Smallest Positive missing number
 You are given an array arr[] of N integers. The task is to find the smallest positive number missing from the array.
 The task is to complete the function missingNumber() which returns the smallest positive missing number in the array.
 
 Expected Time Complexity: O(N).
 Expected Auxiliary Space: O(1).
+
+
 
 Rearrange an array with O(1) extra space
 Given an array arr[] of size N where every element is in the range from 0 to n-1. Rearrange the given array so that the transformed array arrT[i] becomes arr[arr[i]].
@@ -323,6 +348,8 @@ You don't need to read input or print anything. The task is to complete the func
 Expected Time Complexity: O(N)
 Expected Auxiliary Space: O(N)
 
+
+
 Kadane's Algorithm
 Given an array Arr[] of N integers. Find the contiguous sub-array(containing at least one number) which has the maximum sum and return its sum.
 
@@ -332,6 +359,8 @@ You don't need to read input or print anything. The task is to complete the func
 Expected Time Complexity: O(N)
 Expected Auxiliary Space: O(1)
 
+
+
 Max Circular Subarray Sum
 Given an array arr[] of N integers arranged in a circular fashion. Your task is to find the maximum contiguous subarray sum.
 
@@ -340,6 +369,7 @@ The task is to complete the function circularSubarraySum() which returns a sum o
 
 Expected Time Complexity: O(N).
 Expected Auxiliary Space: O(1).
+
 
 
 Check whether K-th bit is set or not
@@ -490,6 +520,7 @@ Expected Time Complexity: O(log N)
 Expected Auxiliary Space: O(1)
 
 
+
 Allocate minimum number of pages
 
 You have N books, each with A[i] number of pages. M students need to be allocated contiguous books, with each student getting at least one book.
@@ -503,5 +534,56 @@ You don't need to read input or print anything. Your task is to complete the fun
 
 Expected Time Complexity: O(NlogN)
 Expected Auxilliary Space: O(1)
+
+
+# Sorting Advance
+
+# Minimum Platforms
+Given arrival and departure times of all trains that reach a railway station. Find the minimum number of platforms required for the railway station so that no train is kept waiting.
+Consider that all the trains arrive on the same day and leave on the same day. Arrival and departure time can never be the same for a train but we can have arrival time of one train equal to departure time of the other. At any given instance of time, same platform can not be used for both departure of a train and arrival of another train. In such cases, we need different platforms.
+
+Your Task:
+You don't need to read input or print anything. Your task is to complete the function findPlatform() which takes the array arr[] (denoting the arrival times), array dep[] (denoting the departure times) and the size of the array as inputs and returns the minimum number of platforms required at the railway station such that no train waits.
+
+Note: Time intervals are in the 24-hour format(HHMM) , where the first two characters represent hour (between 00 to 23 ) and the last two characters represent minutes (this may be > 59).
+
+
+Expected Time Complexity: O(nLogn)
+Expected Auxiliary Space: O(n)
+
+
+# Merge Without Extra Space
+
+Given two sorted arrays arr1[] of size N and arr2[] of size M. Each array is sorted in non-decreasing order. Merge the two arrays into one sorted array in non-decreasing order without using any extra space.
+
+Your Task:
+You don't need to read input or print anything. Complete the function merge() which takes the two arrays arr1[], arr2[] and their sizes n and m, as input parameters. The function does not return anything. Use the given arrays to sort and merge arr1[] and arr2[] in-place. 
+Note: The generated output will print all the elements of arr1[] followed by all the elements of arr2[].
+
+
+Expected Time Complexity: O((n+m)*log(n+m))
+Expected Auxiliary Space: O(1)
+
+
+Triplet Sum in Array
+
+Given an array arr of size n and an integer X. Find if there's a triplet in the array which sums up to the given integer X.
+
+Your Task:
+You don't need to read input or print anything. Your task is to complete the function find3Numbers() which takes the array arr[], the size of the array (n) and the sum (X) as inputs and returns True if there exists a triplet in the array arr[] which sums up to X and False otherwise.
+
+
+Three way partitioning
+
+Given an array of size n and a range [a, b]. The task is to partition the array around the range such that array is divided into three parts.
+1) All elements smaller than a come first.
+2) All elements in range a to b come next.
+3) All elements greater than b appear in the end.
+The individual elements of three sets can appear in any order. You are required to return the modified array.
+
+Note: The generated output is 1 if you modify the given array successfully.
+
+Your Task:
+You don't need to read input or print anything. The task is to complete the function threeWayPartition() which takes the array[], a, and b as input parameters and modifies the array in-place according to the given conditions.
 
 """
